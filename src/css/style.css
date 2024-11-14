@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image_book{
+  background-image: url('/src/img/invoice_book.jpg');
+}
+
+.image_billing{
+  background-image: url('/src/img/financial-5050415_640.jpg');
+}
+
+.image_fast{
+  background-image: url('/src/img/Fast-03-512.webp');
+}
+
+.image_invoice{
+  background-image: url('/src/img/document-8689018_640.png');
+}
+
+.files_container{
+  background-image: url('/src/img/828406_folder_512x512.png');
+}
+
+.background_button{
+  background: #B83242;
+}
+
+.background_button:hover{
+  background: #C63748;
+}
+
+#navbar {
+  transition: background-color 1s ease;
+}
+
+.active {
+  background-color: #333; /* Cambia este color según tu preferencia */
+  padding: 8px;
+}
